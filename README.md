@@ -15,17 +15,9 @@ Run the S3_Data_Download.py script to fetch the dataset into your local environm
 Notebooks/
 The Jupyter notebooks within this directory detail the complete lifecycle of our object detection models, from inception to inference.
 
-1. CV_Detectron2_Project2.ipynb:
+1. CV_Detectron2_Project2.ipynb: Contains the process for developing the Detectron2 model, including hyperparameter tuning. Provides the steps for training the model on the training set and validating on the validation set. Demonstrates how to perform inferences on the test set.
 
-Contains the process for developing the Detectron2 model, including hyperparameter tuning.
-Provides the steps for training the model on the training set and validating on the validation set.
-Demonstrates how to perform inferences on the test set.
-
-2. CV_YOLOv5_Project2.ipynb:
-
-Similar to the Detectron2 notebook, this file is dedicated to the YOLOv5 model's lifecycle.
-It includes steps for model development, hyperparameter tuning, training, and validation.
-Guides through the inference process on the test set.
+2. CV_YOLOv5_Project2.ipynb: Similar to the Detectron2 notebook, this file is dedicated to the YOLOv5 model's lifecycle. It includes steps for model development, hyperparameter tuning, training, and validation. Guides through the inference process on the test set.
 
 Scripts/
 Scripts in this directory allow for automated, script-based interaction with the models, mirroring the processes laid out in the Jupyter notebooks.
