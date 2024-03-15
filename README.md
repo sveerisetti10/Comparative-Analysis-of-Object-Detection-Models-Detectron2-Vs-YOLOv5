@@ -20,7 +20,7 @@ The Jupyter notebooks within this directory detail the complete lifecycle of our
 2. CV_YOLOv5_Project2.ipynb: Similar to the Detectron2 notebook, this file is dedicated to the YOLOv5 model's lifecycle. It includes steps for model development, hyperparameter tuning, training, and validation. Guides through the inference process on the test set.
 
 Scripts/
-Scripts in this directory allow for automated, script-based interaction with the models, mirroring the processes laid out in the Jupyter notebooks.
+This directory allow for automated, script-based interaction with the models, mirroring the processes laid out in the Jupyter notebooks.
 
 For instance:
 - Detectron2_Train.py: Train the Detectron2 model.
